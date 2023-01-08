@@ -1,15 +1,11 @@
-package com.example.hellospring.service;
+package hello.hellospring.service;
 
-import com.example.hellospring.domain.Member;
-import com.example.hellospring.repository.MemoryMemberRepository;
-import org.assertj.core.api.Fail;
-import org.junit.jupiter.api.Assertions;
+import hello.hellospring.domain.Member;
+import hello.hellospring.repository.MemoryMemberRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.junit.platform.commons.function.Try;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.assertj.core.api.Assertions.catchException;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.api.Assertions.fail;
 
