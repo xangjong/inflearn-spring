@@ -1,17 +1,14 @@
-package com.example.hellospring.controller;
+package hello.hellospring.controller;
 
-import com.example.hellospring.domain.Member;
-import com.example.hellospring.service.MemberService;
+import hello.hellospring.domain.Member;
+import hello.hellospring.service.MemberService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Required;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 
-import java.net.http.HttpClient;
 import java.util.List;
-import java.util.logging.Logger;
 
 @Controller
 public class MemberController {
