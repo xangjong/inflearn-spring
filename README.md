@@ -1,1 +1,1 @@
-# Spring Study
+# Inflearn Spring Study
