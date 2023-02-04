@@ -10,7 +10,6 @@ import hello.core.order.OrderService;
 import hello.core.order.OrderServiceImpl;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.stereotype.Component;
 
 @Configuration
 public class AppConfig {
@@ -45,6 +44,7 @@ public class AppConfig {
         System.out.println("call AppConfig.orderService");
         return new OrderServiceImpl(memberRepository(), discountPolicy());
     }
+
 
     @Bean
     public DiscountPolicy discountPolicy() {
