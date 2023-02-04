@@ -14,6 +14,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class AppConfig {
 
+    //작동 프로세스
     //@Bean memberService -> new MemoryMemberRepository()
     //@Bean orderService -> new MemoryMemberRepository()
 
